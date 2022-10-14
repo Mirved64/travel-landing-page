@@ -1,1 +1,38 @@
-/*# sourceMappingURL=style.css.map */
+@import url(/css/reset.css);
+@import url(/css/normalize);
+/* lato-regular - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: regular;
+  src: local("");
+  src-url: "../fonts/lato-v23-latin-regular.woff2" format("woff2");
+  src-url: "../fonts/lato-v23-latin-regular.woff" format("woff");
+}
+/* lato-700 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: local("");
+  src-url: "../fonts/lato-v23-latin-700.woff2" format("woff2");
+  src-url: "../fonts/lato-v23-latin-700.woff" format("woff");
+}
+/* lato-900 - latin */
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: local("");
+  src-url: "../fonts/lato-v23-latin-900.woff2" format("woff2");
+  src-url: "../fonts/lato-v23-latin-900.woff" format("woff");
+}
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: "Lato";
+  font-weight: regular;
+}/*# sourceMappingURL=style.css.map */
