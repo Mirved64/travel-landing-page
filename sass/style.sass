@@ -45,6 +45,8 @@ img
 .wrapper-sm
   width: 1060px
   margin: 0 auto
+
+
 /* Header start */
 .header
   width: 100%
@@ -119,9 +121,59 @@ img
     background: #1B7DFF
     border: 0
     
-
-
-  
-
-
 /* Header end */
+
+/* Benefits start */
+
+.benefits
+  margin-bottom: 131px
+  &__wrap
+    position: relative
+    max-width: 1262px
+    margin: 0 auto
+    background-color: #fff
+    
+  &__title
+    width: 100%
+    font-size: 35px
+    line-height: 42px 
+    padding: 93px 100px 88px 100px
+    position: absolute
+    top: 0
+    left: 0
+    transform: translateY(-100%)
+    background-color: #fff
+    
+  &__cards
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-between
+  &__card
+    max-width: 317px
+    &-img
+      margin-bottom: 37px
+    &-title
+      font-size: 18px
+      line-height: 24px
+      color: #000000
+      margin-bottom: 26px
+    &-text
+      font-size: 16px
+      line-height: 24px
+      color: #000000
+      margin-bottom: 40px
+    &-more
+      display: inline-block
+      padding-right: 59px
+      color: #006DFE
+      font-size: 16px
+      line-height: 24px
+      margin-bottom: 112px
+      background: url(../img/icons/shape.svg) no-repeat 95% center
+      text-decoration: none
+      text-transform: uppercase
+      transition: .2s all
+.benefits__card-more:hover, .benefits__card-more:focus
+  background: url(../img/icons/shape.svg) no-repeat right center  
+
+/* Benefits end */
