@@ -2,35 +2,126 @@
 @import url(/css/normalize)
 
 /* lato-regular - latin */
-@font-face
+@font-face 
   font-family: 'Lato'
   font-style: normal
-  font-weight: regular
-  src: local(''),
-       url:('../fonts/lato-v23-latin-regular.woff2') format('woff2'), 
-       url:('../fonts/lato-v23-latin-regular.woff') format('woff') 
+  font-weight: 400
+  src: url('../fonts/lato-v23-latin-regular.woff2') format('woff2'), url('../fonts/lato-v23-latin-regular.woff') format('woff') 
 
 /* lato-700 - latin */
 @font-face 
   font-family: 'Lato'
   font-style: normal
   font-weight: 700
-  src: local(''),
-       url:('../fonts/lato-v23-latin-700.woff2') format('woff2'), 
-       url:('../fonts/lato-v23-latin-700.woff') format('woff') 
+  src: url('../fonts/lato-v23-latin-700.woff2') format('woff2'), url('../fonts/lato-v23-latin-700.woff') format('woff') 
 
 /* lato-900 - latin */
 @font-face 
   font-family: 'Lato'
   font-style: normal
   font-weight: 900
-  src: local(''),
-       url:('../fonts/lato-v23-latin-900.woff2') format('woff2'), 
-       url:('../fonts/lato-v23-latin-900.woff') format('woff') 
+  src: url('../fonts/lato-v23-latin-900.woff2') format('woff2'), url('../fonts/lato-v23-latin-900.woff') format('woff') 
+
   
 *
   box-sizing: border-box 
+  &::before
+    box-sizing: inherit
+  &::after
+    box-sizing: inherit
 
-html
+body
   font-family: 'Lato'
-  font-weight: regular
+  font-style: normal
+  font-size: 16px
+  line-height: 1.2
+  font-weight: 400
+  color: #102746
+
+img
+  max-width: 100%
+  height: auto
+
+.wrapper-sm
+  width: 1060px
+  margin: 0 auto
+/* Header start */
+.header
+  width: 100%
+  height: 989px
+  background: url(../img/header-bg.jpg) center no-repeat 
+  background-size: cover
+
+.nav
+  width: 1060px
+  margin: 0 auto
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
+  padding-top: 56px
+  margin-bottom: 177px
+  &__items
+    display: flex
+    flex-wrap: wrap
+  &__item
+    margin-right: 82px
+    &:last-child
+      margin-right: 0
+  &__link
+    color: #FFFFFF
+    font-size: 18px
+    line-height: 24px
+    text-decoration: none
+    &:hover, .nav__link:focus, .nav__link:active
+      opacity: .75
+
+.text
+  &__title
+    font-style: normal
+    font-weight: 400
+    font-size: 50px
+    line-height: 60px
+    color: #FFFFFF
+    margin-bottom: 22px
+  &__subtitle
+    max-width: 546px
+    font-weight: 400
+    font-size: 16px
+    line-height: 24px
+    color: #FFFFFF
+    margin-bottom: 60px
+  
+.search
+  display: flex
+  flex-wrap: wrap
+  align-items: center
+  &__input
+    width: 297px
+    background: transparent url(../img/icons/oval.svg) no-repeat left 0px
+    background-size: 20px
+    border: 0
+    border-bottom: 2px solid #BFC0C5
+    padding-left: 43px
+    padding-bottom: 22px
+    margin-right: 60px
+    font-size: 18px
+    font-weight: 400
+    &::placeholder
+      font-weight: 400
+      font-size: 18px
+      color: #fff
+  &__btn
+    padding: 15px 39px
+    text-transform: uppercase
+    font-weight: 500
+    font-size: 24px
+    color: white
+    background: #1B7DFF
+    border: 0
+    
+
+
+  
+
+
+/* Header end */
