@@ -53,6 +53,19 @@ img {
   margin: 0 auto;
 }
 
+.wrapper-lg {
+  width: 1262px;
+  margin: 0 auto;
+}
+
+.line {
+  width: 253px;
+  height: 3px;
+  border-color: #006DFE;
+  margin: 0;
+  margin-top: 7px;
+}
+
 /* Header start */
 .header {
   width: 100%;
@@ -243,4 +256,99 @@ img {
   background: url(../img/icons/shape.svg) no-repeat right center;
 }
 
-/* Benefits end *//*# sourceMappingURL=style.css.map */
+/* Benefits end */
+/* Inspired start */
+.inspired__title {
+  font-size: 35px;
+  line-height: 42px;
+  color: #102746;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 36px;
+}
+.inspired__link {
+  padding-right: 59px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  text-decoration: none;
+  background: url(../img/icons/shape.svg) no-repeat 95% center;
+  text-transform: uppercase;
+}
+.inspired__link a {
+  color: #006DFE;
+  text-decoration: none;
+}
+.inspired__cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+.inspired__card {
+  position: relative;
+  overflow: hidden;
+}
+.inspired__card-img {
+  width: 100%;
+  -webkit-transition: 0.15s all;
+  -o-transition: 0.15s all;
+  transition: 0.15s all;
+}
+.inspired__card-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
+}
+.inspired__card::after {
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: rgba(21, 24, 36, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.inspired__card:hover .inspired__card-img {
+  -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+          transform: scale(1.05);
+}
+.inspired__card-name {
+  font-size: 50px;
+  line-height: 60px;
+  color: white;
+  position: absolute;
+  bottom: 27px;
+  left: 29px;
+  z-index: 3;
+}
+
+.img-lg {
+  height: 354px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  grid-column: span 3;
+}
+
+.img-sm {
+  height: 283px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  grid-column: span 2;
+}
+
+/* Inspired end *//*# sourceMappingURL=style.css.map */
