@@ -258,6 +258,9 @@ img {
 
 /* Benefits end */
 /* Inspired start */
+.inspired {
+  padding-bottom: 131px;
+}
 .inspired__title {
   font-size: 35px;
   line-height: 42px;
@@ -351,4 +354,37 @@ img {
   grid-column: span 2;
 }
 
-/* Inspired end *//*# sourceMappingURL=style.css.map */
+/* Inspired end */
+/* Prefecture start */
+.prefecture {
+  margin-bottom: 139px;
+}
+.prefecture__place {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0 108px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 77px;
+}
+
+.place__title {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 85px;
+}
+.place__text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 58px;
+}
+.place__link {
+  font-size: 16px;
+  color: #006DFE;
+  text-decoration: none;
+  padding-right: 59px;
+  background: url(../img/icons/shape.svg) no-repeat right center;
+}
+
+/* Prefecture end *//*# sourceMappingURL=style.css.map */
