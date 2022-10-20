@@ -113,7 +113,7 @@ img {
 
 .text__title {
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 50px;
   line-height: 60px;
   color: #FFFFFF;
@@ -178,7 +178,7 @@ img {
 .search__btn {
   padding: 15px 39px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 24px;
   color: white;
   background: #1B7DFF;
@@ -199,6 +199,7 @@ img {
 .benefits__title {
   width: 100%;
   font-size: 35px;
+  font-weight: 700;
   line-height: 42px;
   padding: 93px 100px 88px 100px;
   position: absolute;
@@ -228,6 +229,7 @@ img {
 .benefits__card-title {
   font-size: 18px;
   line-height: 24px;
+  font-weight: 700;
   color: #000000;
   margin-bottom: 26px;
 }
@@ -264,6 +266,7 @@ img {
 .inspired__title {
   font-size: 35px;
   line-height: 42px;
+  font-weight: 700;
   color: #102746;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -333,6 +336,7 @@ img {
 .inspired__card-name {
   font-size: 50px;
   line-height: 60px;
+  font-weight: 900;
   color: white;
   position: absolute;
   bottom: 27px;
@@ -372,6 +376,7 @@ img {
 .place__title {
   font-size: 30px;
   line-height: 40px;
+  font-weight: 700;
   margin-bottom: 85px;
 }
 .place__text {
@@ -395,6 +400,7 @@ img {
 .today__title {
   font-size: 35px;
   line-height: 42px;
+  font-weight: 700;
   margin-bottom: 54px;
 }
 .today__cards {
@@ -418,6 +424,7 @@ img {
 .today__content-title {
   font-size: 18px;
   ine-height: 24px;
+  font-weight: 700;
   color: #fff;
   margin: 0 auto 0 0;
 }
@@ -445,6 +452,7 @@ img {
 .today__content-likes {
   font-size: 16px;
   line-height: 24px;
+  font-weight: 700;
   color: #fff;
   padding-right: 20px;
   background: url(../img/icons/like.svg) no-repeat right;
@@ -480,7 +488,7 @@ img {
   width: 100%;
 }
 .video__wrap {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0 auto;
   position: relative;
 }
