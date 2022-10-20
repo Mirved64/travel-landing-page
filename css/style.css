@@ -471,6 +471,28 @@ img {
   margin: auto 0 0 0;
   border: none;
   line-height: 19px;
+  text-decoration: none;
 }
 
-/* Today end *//*# sourceMappingURL=style.css.map */
+/* Today end */
+/* Video start */
+.video {
+  width: 100%;
+}
+.video__wrap {
+  max-width: 1440px;
+  margin: 0 auto;
+  position: relative;
+}
+.video__item {
+  padding-top: 56.25%;
+}
+.video__element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Video end */  /*# sourceMappingURL=style.css.map */
