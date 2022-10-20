@@ -488,7 +488,7 @@ img {
   width: 100%;
 }
 .video__wrap {
-  width: 1440px;
+  max-width: 1586px;
   margin: 0 auto;
   position: relative;
 }
